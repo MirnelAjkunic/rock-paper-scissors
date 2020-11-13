@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color:lightslategray;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+p{
+    font-size: 2.15em;
+    margin: 0;
+    padding: 0 0.3vh 2vh;
+}
+.question{
+   border: 2px solid white;
+   border-radius: 4px;
+   margin: 5vh auto;
+   width: 40vh;
+   padding: 2vh;
+    position: relative; 
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+#rounds{
+    display: none;
+}
+button, .button{
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 2em;
+    height: 8vh;
+    width: 8vh;
+    margin: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:inherit;
+    transition: 0.2s;
+    
+}
+form{
+    display: grid;
+    grid-template-columns: 10% 40% 10% 40%;
+    text-align: left;
+    padding-left: 5vh;
+}
+h2{
+    font-size: 3.5em;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 3.5em;
+    margin: 0;
+    padding: 0 1vh;
+}
+h4{
+    font-size: 2.5vh;
+    margin-top: 1vh;
+    letter-spacing: 8px;
+}
+a{
+    color:darkblue;
+    font-size: 3em;
+    text-decoration: none;
+    
+}
+
+.basic{
+    background-color: darkblue;
+    padding: 0.5vh;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+}
+.user{
+     position: absolute;
+    margin-left: -100%;
+    margin-top: 10%;
+}
+.comp{
+     position: absolute;
+    margin-left: 100%;
+    margin-top: 10%;
+}
+button:active{
+    border:3px solid darkblue;
+    box-shadow: 0 0 10px darkblue;
+    font-size: 3em;
+}
+button:hover{
+    border:3px solid darkblue;
+    box-shadow: 0 0 10px darkblue;
+}
+button:focus{
+    outline: none;
+    
+}
+span {
+    color: darkblue;
+    font-size: .5em;
+}
+ 
